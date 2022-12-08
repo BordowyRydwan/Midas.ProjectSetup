@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# cd ..
+cd ..
 docker-compose -f services/Midas.Services.Authorization/docker-compose.yml up && \
 docker-compose -f services/Midas.Services.Users/docker-compose.yml up && \
 docker-compose -f services/Midas.Services.Families/docker-compose.yml up && \
