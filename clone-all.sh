@@ -20,7 +20,7 @@ git clone git@github.com:BordowyRydwan/Midas.Services.Authorization.git Authoriz
 git clone git@github.com:BordowyRydwan/Midas.Services.Users.git Users && \
 git clone git@github.com:BordowyRydwan/Midas.Services.Families Families && \
 git clone git@github.com:BordowyRydwan/Midas.Services.FileStorage.git FileStorage && \
-git clone git@github.com:BordowyRydwan/Midas.Services.Transactions.git TRansactions
+git clone git@github.com:BordowyRydwan/Midas.Services.Transactions.git Transactions
 cd ..
 
 echo 'Service files downloaded'
