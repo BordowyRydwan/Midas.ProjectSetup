@@ -16,7 +16,8 @@ docker network create midas
 ## Call order
 ```
 sh ./clone_all.sh
-sh ./compose-all.sh
+sh ./build-all.sh
+sh ./start-all.sh
 ```
 
 Do not call these commands as a system root!

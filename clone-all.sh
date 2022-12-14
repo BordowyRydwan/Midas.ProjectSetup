@@ -37,7 +37,7 @@ git clone git@github.com:BordowyRydwan/Midas.Frontends.Families.git Families && 
 git clone git@github.com:BordowyRydwan/Midas.Frontends.FileStorage.git FileStorage && \
 git clone git@github.com:BordowyRydwan/Midas.Frontends.Transactions.git Transactions && \
 git clone git@github.com:BordowyRydwan/Midas.Frontends.Monolith.git Monolith && \
-cd ../Midas.ProjectFiles
+cd ../Midas.ProjectSetup
 
 echo 'Service files downloaded'
 echo 'All files downloaded'
