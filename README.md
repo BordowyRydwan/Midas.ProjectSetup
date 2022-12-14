@@ -50,4 +50,8 @@ Quick explaination to scripts on repository
 This script clones all project repositories from section **Project subrepositories**
 
 ### compose-all
-This script allows to quickly dockerize the services or frontends after any changes. Pushing to Docker Hub is going to be done right after I buy myself an organization license.
+This script allows to quickly dockerize the services or frontends after any changes. 
+After composing the containers, you can push images to Docker Hub for further Kubernetes orchestration
+
+## Docker Hub
+I pushed Docker images to Docker Hub. The list of repositories is available [HERE](https://hub.docker.com/u/bordowyrydwan).
