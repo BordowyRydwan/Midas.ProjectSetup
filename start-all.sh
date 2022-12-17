@@ -9,7 +9,7 @@ docker-compose -f Midas.Services/Families/docker-compose.yml -f Midas.Frontends/
 docker-compose -f Midas.Services/Users/docker-compose.yml -f Midas.Frontends/Users/docker-compose.yml -p midas-users start db frontend &&\
 docker-compose -f Midas.Frontends/Container/docker-compose.yml -p midas-container start root-container &&\
 docker-compose -f Midas.Frontends/Navigation/docker-compose.yml -p midas-navigation start frontend &&\
-#docker-compose -f Midas.Frontends/Monolith/docker-compose.yml -p midas-monolith start frontend
+docker-compose -f Midas.Frontends/Monolith/docker-compose.yml -p midas-monolith start frontend
 
 # sleep for waiting database to load
 echo 'Waiting for databases to run...'
